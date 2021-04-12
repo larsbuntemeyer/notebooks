@@ -1,7 +1,5 @@
 # notebooks for prototyping
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/larsbuntemeyer/notebooks/main?urlpath=lab)
-
 These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented 
 very well but are used only to try out some coding concepts.
 
