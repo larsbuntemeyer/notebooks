@@ -1,5 +1,7 @@
 # notebooks for prototyping
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?urlpath=lab)
+
 These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented 
 very well but are used only to try out some coding concepts.
 
@@ -7,7 +9,6 @@ very well but are used only to try out some coding concepts.
 * [`esgf.ipynb`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/blob/main/esgf.ipynb): access of cordex and cmip data from the ESGF via opendap protocol.
 * [`shapefiles.ipynb`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/blob/main/shapefiles.ipynb): masking of cordex data by countries based on shapefiles.
 * [`climdex-catalog.ipynb`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/blob/main/climdex-catalog.ipynb): plot climate indices from CMIP5 models at the DKRZ data pool.
-
 
 ## requirements
 
