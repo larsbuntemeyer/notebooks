@@ -2,6 +2,9 @@
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/larsbuntemeyer/notebooks/main)
 
+[`nbviewer`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
+
+
 These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented 
 very well but are used only to try out some coding concepts. Most notebooks require data access to the 
 [DKRZ data pool](https://www.dkrz.de/up/de-services/de-data-management/de-cmip-data-pool) using their intake catalogs. However, in principle
