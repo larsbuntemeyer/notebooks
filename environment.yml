@@ -16,8 +16,6 @@ dependencies:
   - dask-jobqueue
   - ipywidgets
   - jupyter
-  - holoviews
-  - hvplot
   - cartopy
   - h5py
   - geoviews
