@@ -35,8 +35,6 @@ The most important packages that will make your work with heavy cmip datasets ea
   - dask-jobqueue
   - ipywidgets
   - jupyter
-  - holoviews
-  - hvplot
   - cartopy
   - geoviews
 
