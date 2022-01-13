@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3
+  - python=3.9
   - ipykernel
   - tqdm
   - pandas
@@ -19,3 +19,4 @@ dependencies:
   - cartopy
   - h5py
   - geoviews
+  - py-cordex
