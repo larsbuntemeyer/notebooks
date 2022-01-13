@@ -1,8 +1,6 @@
 # notebooks for prototyping
 
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/larsbuntemeyer/notebooks/main)
-
-[`nbviewer`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
 
 
 These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented 
