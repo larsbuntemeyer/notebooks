@@ -1,4 +1,4 @@
-# notebooks for prototyping
+# Notebooks for prototyping
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
 
@@ -16,7 +16,7 @@ you should also be able to run CMIP6 notebooks if you switch to the [PANGEO data
 * [`xclim-test.ipynb`](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/blob/main/xclim-test.ipynb?flush_cache=true): compute CMIP6 climate indicators using [xclim](https://github.com/Ouranosinc/xclim) and dask.
 
 
-## requirements
+## Requirements
 
 The most important packages that will make your work with heavy cmip datasets easier are:
 
@@ -40,3 +40,10 @@ You can use the `environment.yaml` file to easily install all dependencies, e.g.
 ```
 conda env create -f environment.yaml
 ```
+
+## Server settings - DKRZ
+
+Here are my recommended server settings for the [JupyterLab at DKRZ](https://jupyterhub.dkrz.de).
+
+![Server Settings DKRZ](server-settings-dkrz.png "Server Settings DKRZ")
+
