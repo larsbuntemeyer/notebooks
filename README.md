@@ -40,6 +40,10 @@ You can use the `environment.yaml` file to easily install all dependencies, e.g.
 ```
 conda env create -f environment.yaml
 ```
+This should create a basic kernel called `notebooks` that you can use to run most of the notebooks in this repo. 
+However, sometimes you might need to install additional packages if they are missing. 
+[Here](https://jupyterhub.gitlab-pages.dkrz.de/jupyterhub-docs/kernels.html#use-your-own-kernel) is a documentation of how to install the kernel
+in the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de).
 
 ## Server settings - DKRZ
 
