@@ -16,7 +16,7 @@ you should also be able to run CMIP6 notebooks if you switch to the [PANGEO data
 
 ## Requirements
 
-The most important packages that will make your work with heavy cmip datasets easier are:
+The most important packages that will make your work with heavy cmip datasets in ipython easier are:
 
   - python=3
   - ipykernel
@@ -32,7 +32,6 @@ The most important packages that will make your work with heavy cmip datasets ea
   - ipywidgets
   - jupyter
   - cartopy
-  - geoviews
 
 You can use the `environment.yaml` file to easily install all dependencies, e.g.
 ```
@@ -49,3 +48,12 @@ Here are my recommended server settings for the [JupyterLab at DKRZ](https://jup
 
 ![Server Settings DKRZ](server-settings-dkrz.png "Server Settings DKRZ")
 
+Note, that on the `shared` partition at DKRZ, you don't have internet access (actually, you only have internet access on the `prepost` partition).
+However, some packages might need internet access to cache data (e.g., regionmask `regionmask.defined_regions`, or `xarray.tutorial`). You can trigger
+those downloads on the login node. Once, the data is cached in you `HOME` directory, you can use it also on the `shared` partition. Also `py-cordex` needs
+some tables with domain definitions to download. You can trigger that e.g., using
+
+```python
+import cordex as cx
+cx.domains.table
+```
