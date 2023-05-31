@@ -3,8 +3,8 @@
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
 
 
-These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented 
-very well but are used only to try out some coding concepts. Most notebooks require data access to the 
+These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented
+very well but are used only to try out some coding concepts. Most notebooks require data access to the
 [DKRZ data pool](https://www.dkrz.de/up/de-services/de-data-management/de-cmip-data-pool) using their intake catalogs. However, in principle
 you should also be able to run CMIP6 notebooks if you switch to the [PANGEO datastore url](https://github.com/pangeo-data/pangeo-datastore).
 
@@ -37,8 +37,8 @@ You can use the `environment.yaml` file to easily install all dependencies, e.g.
 ```
 conda env create -f environment.yaml
 ```
-This should create a basic kernel called `notebooks` that you can use to run most of the notebooks in this repo. 
-However, sometimes you might need to install additional packages if they are missing. 
+This should create a basic kernel called `notebooks` that you can use to run most of the notebooks in this repo.
+However, sometimes you might need to install additional packages if they are missing.
 [Here](https://jupyterhub.gitlab-pages.dkrz.de/jupyterhub-docs/kernels.html#use-your-own-kernel) is a documentation of how to install the kernel
 in the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de).
 
