@@ -1,7 +1,7 @@
 # Notebooks for prototyping
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/larsbuntemeyer/notebooks/tree/main/)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/larsbuntemeyer/notebooks/HEAD)
 
 These notebooks contain some prototype code for working with large CMIP or CORDEX datasets. Most notebooks are not documented
 very well but are used only to try out some coding concepts. Most notebooks require data access to the
